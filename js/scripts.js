@@ -9,3 +9,10 @@ function Player(roll,tempscore,totalscore,turn,playername){
   this.turn=0;
   this.playername;
 }
+Player.prototype.moja= function(){
+  if(roll==1){
+    this.tempscore=0;
+    alert("1 is not in your favour" + this.playername + ", your turn is over!")
+  }else{
+    this.tempscore+=this.roll;
+  }
