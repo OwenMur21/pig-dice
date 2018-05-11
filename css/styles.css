@@ -13,5 +13,37 @@ img{
   height: 250px;
   font-size: 30px;
   border: 5px solid black;
-
+}
+#luck{
+  max-width: 40px;
+  max-height: 30px;
+}
+.about{
+  float:right;
+  border: 2px solid #5B5160;
+  text-align: center;
+  padding: 10px;
+  width:400px;
+  margin-right: 50px;
+}
+.ng{
+  float:left;
+    padding: 10px;
+    margin-left: 50px;
+}
+.playernames{
+  width:700px;
+  text-align: center;
+  padding-left: 322px;
+}
+#vs{
+  margin-top: 15px;
+  max-width: 40px;
+  max-height: 30px;
+}
+.gaming{
+  width:1050px;
+}
+#p2{
+  padding-left:170px;
 }
