@@ -21,8 +21,15 @@ Player.prototype.hold= function(){
   this.tempscore=0;
   alert(this.playername + ", your held your score, your turn is over.")
 }
-Player.prototype.progamer=function{
+Player.prototype.proGamer=function(){
   if(this.totalscore==100){
     alert(this.playername + ", you are Master Dicer!!")
   }
+}
+Player.prototype.newGame= function(){
+  this.roll=0;
+  this.tempscore=0;
+  this.totalscore=0;
+  this.turn=0;
+  this.playername=('');
 }
