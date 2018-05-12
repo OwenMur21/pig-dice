@@ -3,7 +3,7 @@
 #### A pig-dice game
 #### By Owen Muriithi Mathu
 ## Description
-This is a @-player dice game that has the following rules:
+This is a 2-player dice game that has the following rules:
 1) If the player rolls a 1, they score nothing and it becomes the next player's turn.
 2) If the player rolls any other number, it is added to their turn total and the player's turn continues.
 3) If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.
