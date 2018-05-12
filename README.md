@@ -13,7 +13,7 @@ This is a 2-player dice game that has the following rules:
 ## Known Bugs
 I haven't come across any bugs but incase of any be sure to email me.
 ## Technologies Used
-This was created by the use of various HTML5 elements including classes, basic html tags , CSS to style the page and javascript to make it respoonsive.
+This was created by the use of various HTML5 elements including classes, basic html tags , CSS to style the page and javascript to make it responsive.
 ## Support and contact details
 Incase of issues email me :owenmuriithi@gmail.com
 ### License
