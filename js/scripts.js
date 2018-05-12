@@ -33,3 +33,9 @@ Player.prototype.newGame= function(){
   this.turn=0;
   this.playername=('');
 }
+var clearnames= function(){
+  $("input#player1name").val("");
+  $("input#player2name").val("");
+}
+
+//user-interface logic
