@@ -6,6 +6,8 @@ body{
 img{
   max-width: 300px;
   max-height: 200px;
+
+
 }
 .jumbotron{
   font-family: 'Skranji', cursive;
@@ -14,24 +16,47 @@ img{
   font-size: 30px;
   border: 5px solid black;
 }
+.container{
+  border: 2px solid black;
+  border-style: dotted;
+  width:1008px;
+  border-width: 5px;
+  border-color: red;
+  animation-name: dots;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes dots {
+  from{
+      border-color: red;
+  }
+  to{
+      border-color: blue;
+  }
+}
 #luck{
   max-width: 40px;
   max-height: 30px;
 }
 .about{
   float:right;
-  border: 2px solid #5B5160;
   text-align: center;
   padding: 10px;
   width:400px;
-  margin-right: 50px;
+  margin-right: 45px;
+}
+h2{
+  font-family: 'Lobster Two', cursive;
+}
+li{
+  font-style: italic;
 }
 .ng{
   float:left;
     padding: 10px;
     margin-left: 50px;
 }
-.playernames{
+#players{
   width:700px;
   text-align: center;
   padding-left: 322px;
@@ -42,8 +67,76 @@ img{
   max-height: 30px;
 }
 .gaming{
-  width:1050px;
+  width:950px;
+  display: none;
+}
+.images{
+  margin-left: 300px;
+}
+#onedice{
+  display: none;
+
+}
+#twodice{
+  display: none;
+
+}
+
+#threedice{
+  display: none;
+
+}
+
+#fourdice{
+  display: none;
+
+}
+
+#fivedice{
+  display: none;
+
+}
+#sixdice{
+  display: none;
+
+}
+#newgame{
+  font-size: 26px;
+  font-family: 'Righteous', cursive;
+  border-radius: 10px;
+  background-color: #4E976D;
+  color: #01180C;
+
+}
+
+#newgame:hover{
+  background-color: #10532C;
+}
+#newgame:active{
+  transform: translateY(5px);
+}
+.panel-footer{
+  margin-top: 30px;
+  background-image: url("../img/check.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Cookie', cursive;
+  font-size: 24px;
+}
+#title1{
+  color: #405596;
+}
+#title2{
+  color: #C75E5E;
+}
+#p1{
+  font-family: 'Gaegu', cursive;
+    font-size: 34px;
+  margin-left: 20px;
 }
 #p2{
-  padding-left:170px;
+  font-family: 'Gaegu', cursive;
+    font-size: 34px;
+      margin-left: 20px;
 }
