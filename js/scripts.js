@@ -3,17 +3,16 @@ var rolling = function() {
   return Math.floor(Math.random() * 6) + 1;
 }
 
-function Player(roll, tempscore, totalscore, turn, playername) {
+function Player(roll, tempscore, totalscore, playername) {
   this.roll = 0;
   this.tempscore = 0;
   this.totalscore = 0;
-  this.turn = turn;
   this.playername;
 }
 Player.prototype.onedie = function() {
   if (this.roll == 1) {
     this.tempscore = 0;
-    alert("1 is not in your favour" + this.playername + ", your turn is over!");
+    alert("1 is not in your favour " + this.playername + ", your turn is over!");
   } else {
     this.tempscore += this.roll;
   }
@@ -58,12 +57,7 @@ $(document).ready(function() {
     $(".gaming").hide();
     $("input#player1name").val("");
     $("input#player2name").val("");
-    $("#round-total-1").empty();
-    $("#total-score-1").empty();
-    $("#die-roll-1").empty();
-    $("#round-total-2").empty();
-    $("#total-score-2").empty();
-    $("#die-roll-2").empty();
+  
   });
   $("#p1-roll").click(function() {
     p1.roll = rolling();
